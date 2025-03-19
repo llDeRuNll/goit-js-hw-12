@@ -13,7 +13,6 @@ let totalHits = 0;
 
 const form = document.querySelector('.form');
 const loadmore = document.querySelector('.js-loadmore');
-const gallery = document.querySelector('.js-gallery');
 
 const onSubmit = async event => {
   event.preventDefault();
