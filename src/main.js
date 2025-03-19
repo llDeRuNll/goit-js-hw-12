@@ -27,6 +27,8 @@ const onSubmit = async event => {
       'error'
     );
     clearGallery();
+    loadmore.classList.add('is-hidden');
+
     return;
   }
 
