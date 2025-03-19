@@ -26,6 +26,7 @@ const onSubmit = async event => {
       'Sorry, there are no images matching your search query. Please try again!',
       'error'
     );
+    clearGallery();
     return;
   }
 
